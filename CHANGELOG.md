@@ -4,6 +4,34 @@ All notable changes to this project will be documented in this file.
 The format is based on [Keep a Changelog](https://keepachangelog.com/en/1.0.0/),
 and this project adheres to [Semantic Versioning](https://semver.org/spec/v2.0.0.html).
 
+## [1.4.1] - 2022-12-29
+### Added
+- [Requirements] flask_cors
+
+## [1.4.0] - 2022-12-23
+### Updated
+- [Requirements] Bump
+
+## [1.3.10] - 2022-12-13
+### Updated
+- [Requirements] Restore gevent==22.10.2
+
+## [1.3.9] - 2022-12-11
+### Updated
+- [Requirements] Restore gevent==21.12.0 due to glibc incompatibility (https://github.com/gevent/gevent/blob/master/CHANGES.rst#22102-2022-10-31)
+
+## [1.3.8] - 2022-12-09
+### Updated
+- [Requirements] bump requirements
+
+## [1.3.7] - 2022-10-17
+### Updated
+- [Positions] close position
+
+## [1.3.6] - 2022-09-08
+### Updated
+- [AsyncTools] add timeout param
+
 ## [1.3.5] - 2022-08-25
 ### Updated
 - [Dependencies] update to latest reddit, telegram, ngrok and flask versions
